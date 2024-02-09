@@ -1,0 +1,89 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+}
+
+body {
+    max-height: 100vh;
+    overflow-y: hidden;
+    background-color: black;
+}
+
+.nav ul {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 30px 0 30px;
+    background-color: black;
+}
+
+.nav ul li a {
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: #ffffff;
+    color: aqua;
+}
+.content-article {
+    position: absolute;
+    top: 136px;
+    display: block;
+}
+
+.content-home h1 {
+    color: #ffffff;
+    font-size: 64px;
+}
+
+.content-home img {
+    width: 100%;
+    height: 90vh;
+}
+
+.content-image {
+    text-align: center;
+}
+
+.content-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-text p {
+    text-align: center;
+    color: white;
+    width: 80%;
+    font-size: 20px;
+}
+
+
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+.hide{
+    display: none;
+}
+
+.new-color{
+  background-color: #f5943b !important;
+}
